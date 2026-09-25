@@ -14,10 +14,22 @@ divid(14);
 
 function checkIfNegativeOrPositive (number){
     if(number < 0){
-        console.log("negative")
+        console.log("negative");
     }
     else{
-        console.log('Positive')
+        console.log('Positive');
     }
 }
 checkIfNegativeOrPositive(3)
+
+function checkTheMax (num1,num2){
+    if(num1 > num2){
+        console.log(num1);
+    }
+    else{
+        console.log(num2);
+    }
+
+}
+
+checkTheMax(130,27)
