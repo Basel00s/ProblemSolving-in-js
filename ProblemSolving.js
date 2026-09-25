@@ -49,7 +49,8 @@ function checktheMaxAndMin(num1, num2, num3) {
   if (num3 > num1 && num3 > num2 && num1 > num2) {
     console.log("max number :" + num3);
     console.log("min number:" + num2);
-  } if(num3 > num1 && num3 > num2 && num2 > num1) {
+  }
+  if (num3 > num1 && num3 > num2 && num2 > num1) {
     console.log("max number :" + num3);
     console.log("min number:" + num1);
   }
