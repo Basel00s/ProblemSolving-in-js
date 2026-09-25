@@ -11,3 +11,13 @@ function divid(number) {
   }
 }
 divid(14);
+
+function checkIfNegativeOrPositive (number){
+    if(number < 0){
+        console.log("negative")
+    }
+    else{
+        console.log('Positive')
+    }
+}
+checkIfNegativeOrPositive(3)
